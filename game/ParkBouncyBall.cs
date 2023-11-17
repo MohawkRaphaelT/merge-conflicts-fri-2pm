@@ -54,10 +54,12 @@ namespace game
             if (hitEdgeLeft || hitEdgeRight)
             {
                 velocity.X = -velocity.X;
+                Console.WriteLine("Boing");
             }
             if (hitEdgeTop || hitEdgeBottom)
             {
                 velocity.Y = -velocity.Y;
+                Console.WriteLine("Boing");
             }
         }
         // Main loop method

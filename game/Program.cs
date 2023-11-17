@@ -7,6 +7,20 @@ namespace game
         // If you need variables in the Program class (outside functions), you must mark them as static
         static string title = "Game Title";
 
+        // Parker
+
+        // Cole
+
+        // Xander
+
+        // Kyle
+
+        // Aiden
+
+        // Raph
+        static Orb orb;
+
+
         static void Main(string[] args)
         {
             // Create a window to draw to. The arguments define width and height
@@ -37,12 +51,34 @@ namespace game
 
         static void Setup()
         {
-            // Your one-time setup code here
+            // Parker
+
+            // Cole
+
+            // Xander
+
+            // Kyle
+
+            // Aiden
+
+            // Raph
+            orb = new Orb();
         }
 
         static void Update()
         {
-            // Your game code run each frame here
+            // Parker
+
+            // Cole
+
+            // Xander
+
+            // Kyle
+
+            // Aiden
+
+            // Raph
+            orb.Draw();
         }
     }
 }

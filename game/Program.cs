@@ -10,17 +10,18 @@ namespace game
         // Parker
 
         // Cole
+        static Thing thing;
 
         // Xander
 
         // Kyle
-
+        static Square square;
         // Aiden
 
         // Raph
         static Orb orb;
 
-
+        
         static void Main(string[] args)
         {
             // Create a window to draw to. The arguments define width and height
@@ -54,11 +55,12 @@ namespace game
             // Parker
             Ball.Setup();
             // Cole
+            thing = new Thing();
 
             // Xander
 
             // Kyle
-
+            square = new Square();
             // Aiden
             
             // Raph
@@ -70,11 +72,11 @@ namespace game
             // Parker
             Ball.Update();
             // Cole
-
+            thing.Draw();
             // Xander
 
             // Kyle
-
+            square.Draw();
             // Aiden
 
             // Raph

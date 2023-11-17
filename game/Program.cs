@@ -52,7 +52,7 @@ namespace game
         static void Setup()
         {
             // Parker
-
+            Ball.Setup();
             // Cole
 
             // Xander
@@ -60,7 +60,7 @@ namespace game
             // Kyle
 
             // Aiden
-
+            
             // Raph
             orb = new Orb();
         }
@@ -68,7 +68,7 @@ namespace game
         static void Update()
         {
             // Parker
-
+            Ball.Update();
             // Cole
 
             // Xander

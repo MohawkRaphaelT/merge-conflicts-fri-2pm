@@ -10,6 +10,7 @@ namespace game
         // Parker
 
         // Cole
+        static Thing thing;
 
         // Xander
 
@@ -54,6 +55,7 @@ namespace game
             // Parker
 
             // Cole
+            thing = new Thing();
 
             // Xander
 
@@ -70,7 +72,7 @@ namespace game
             // Parker
 
             // Cole
-
+            thing.Draw();
             // Xander
 
             // Kyle

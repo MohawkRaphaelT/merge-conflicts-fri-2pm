@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Raylib_cs;
 
-namespace game
+namespace game;
+
+internal class loremipsum
 {
-    internal class Class1
+    public loremipsum()
     {
+        Raylib.DrawText("Lorem Ipsum", 250, 127, 27, Color.BEIGE);
     }
 }

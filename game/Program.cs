@@ -72,6 +72,7 @@ namespace game
             // Cole
 
             // Xander
+            loremipsum.Draw();
 
             // Kyle
 

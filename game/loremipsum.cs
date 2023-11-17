@@ -9,7 +9,7 @@ namespace game;
 
 internal class loremipsum
 {
-    public loremipsum()
+    public void Draw()
     {
         Raylib.DrawText("Lorem Ipsum", 250, 127, 27, Color.BEIGE);
     }

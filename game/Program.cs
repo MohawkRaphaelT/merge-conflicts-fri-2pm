@@ -53,7 +53,7 @@ namespace game
         static void Setup()
         {
             // Parker
-            Ball.Setup();
+            BouncyBall.Setup();
             // Cole
             thing = new Thing();
 
@@ -70,7 +70,7 @@ namespace game
         static void Update()
         {
             // Parker
-            Ball.Update();
+            BouncyBall.Update();
             // Cole
             thing.Draw();
             // Xander

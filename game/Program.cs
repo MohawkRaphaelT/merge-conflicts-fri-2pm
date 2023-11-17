@@ -14,13 +14,13 @@ namespace game
         // Xander
 
         // Kyle
-
+        static Square square;
         // Aiden
 
         // Raph
         static Orb orb;
 
-
+        
         static void Main(string[] args)
         {
             // Create a window to draw to. The arguments define width and height
@@ -58,7 +58,7 @@ namespace game
             // Xander
 
             // Kyle
-
+            square = new Square();
             // Aiden
 
             // Raph
@@ -74,7 +74,7 @@ namespace game
             // Xander
 
             // Kyle
-
+            square.Draw();
             // Aiden
 
             // Raph
